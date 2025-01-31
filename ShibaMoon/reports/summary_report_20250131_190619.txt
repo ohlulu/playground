@@ -1,0 +1,214 @@
+=== Top 10 Crypto Investment Opportunities ===
+
+
+Symbol: VITE/USDT
+
+3. Grid Trading Opportunity:
+Price: $0.0101
+Score: 0.95
+Grid Type: NEUTRAL
+Direction Score: -0.33
+Volatility: 3.89%
+Suggested Leverage: 7x
+
+Grid Parameters:
+  - Upper Price: $0.0106
+  - Lower Price: $0.0094
+  - Grid Number: 12
+  - Grid Spacing: $0.0001
+  - Investment per Grid: $583.33
+  - Price Precision: 6
+  - Quantity Precision: 3
+
+==================================================
+
+Symbol: ETC/USDT
+
+3. Grid Trading Opportunity:
+Price: $26.3000
+Score: 0.91
+Grid Type: NEUTRAL
+Direction Score: -0.33
+Volatility: 2.81%
+Suggested Leverage: 7x
+
+Grid Parameters:
+  - Upper Price: $27.6990
+  - Lower Price: $25.0900
+  - Grid Number: 12
+  - Grid Spacing: $0.2174
+  - Investment per Grid: $583.33
+  - Price Precision: 3
+  - Quantity Precision: 3
+
+==================================================
+
+Symbol: PAX/USDT
+
+3. Grid Trading Opportunity:
+Price: $0.9996
+Score: 0.91
+Grid Type: NEUTRAL
+Direction Score: -0.33
+Volatility: 0.05%
+Suggested Leverage: 7x
+
+Grid Parameters:
+  - Upper Price: $1.0297
+  - Lower Price: $0.9696
+  - Grid Number: 6
+  - Grid Spacing: $0.0100
+  - Investment per Grid: $1166.67
+  - Price Precision: 5
+  - Quantity Precision: 3
+
+==================================================
+
+Symbol: LSK/USDT
+
+3. Grid Trading Opportunity:
+Price: $0.8680
+Score: 0.91
+Grid Type: NEUTRAL
+Direction Score: -0.33
+Volatility: 3.04%
+Suggested Leverage: 7x
+
+Grid Parameters:
+  - Upper Price: $0.9356
+  - Lower Price: $0.8400
+  - Grid Number: 12
+  - Grid Spacing: $0.0080
+  - Investment per Grid: $583.33
+  - Price Precision: 5
+  - Quantity Precision: 3
+
+==================================================
+
+Symbol: MFT/USDT
+
+3. Grid Trading Opportunity:
+Price: $0.0053
+Score: 0.91
+Grid Type: NEUTRAL
+Direction Score: -0.33
+Volatility: 3.05%
+Suggested Leverage: 7x
+
+Grid Parameters:
+  - Upper Price: $0.0054
+  - Lower Price: $0.0049
+  - Grid Number: 12
+  - Grid Spacing: $0.0000
+  - Investment per Grid: $583.33
+  - Price Precision: 6
+  - Quantity Precision: 3
+
+==================================================
+
+Symbol: CVC/USDT
+
+3. Grid Trading Opportunity:
+Price: $0.1372
+Score: 0.90
+Grid Type: NEUTRAL
+Direction Score: -0.33
+Volatility: 3.09%
+Suggested Leverage: 7x
+
+Grid Parameters:
+  - Upper Price: $0.1428
+  - Lower Price: $0.1288
+  - Grid Number: 12
+  - Grid Spacing: $0.0012
+  - Investment per Grid: $583.33
+  - Price Precision: 5
+  - Quantity Precision: 3
+
+==================================================
+
+Symbol: IOST/USDT
+
+3. Grid Trading Opportunity:
+Price: $0.0059
+Score: 0.90
+Grid Type: NEUTRAL
+Direction Score: -0.33
+Volatility: 3.20%
+Suggested Leverage: 7x
+
+Grid Parameters:
+  - Upper Price: $0.0065
+  - Lower Price: $0.0058
+  - Grid Number: 12
+  - Grid Spacing: $0.0001
+  - Investment per Grid: $583.33
+  - Price Precision: 6
+  - Quantity Precision: 3
+
+==================================================
+
+Symbol: MTL/USDT
+
+3. Grid Trading Opportunity:
+Price: $1.1380
+Score: 0.90
+Grid Type: NEUTRAL
+Direction Score: -0.33
+Volatility: 3.22%
+Suggested Leverage: 7x
+
+Grid Parameters:
+  - Upper Price: $1.2257
+  - Lower Price: $1.0975
+  - Grid Number: 12
+  - Grid Spacing: $0.0107
+  - Investment per Grid: $583.33
+  - Price Precision: 4
+  - Quantity Precision: 3
+
+==================================================
+
+Symbol: ONG/USDT
+
+3. Grid Trading Opportunity:
+Price: $0.2932
+Score: 0.90
+Grid Type: NEUTRAL
+Direction Score: -0.33
+Volatility: 3.24%
+Suggested Leverage: 7x
+
+Grid Parameters:
+  - Upper Price: $0.3024
+  - Lower Price: $0.2716
+  - Grid Number: 12
+  - Grid Spacing: $0.0026
+  - Investment per Grid: $583.33
+  - Price Precision: 5
+  - Quantity Precision: 3
+
+==================================================
+
+Symbol: OMG/USDT
+
+3. Grid Trading Opportunity:
+Price: $0.3830
+Score: 0.90
+Grid Type: NEUTRAL
+Direction Score: -0.33
+Volatility: 4.74%
+Suggested Leverage: 7x
+
+Grid Parameters:
+  - Upper Price: $0.4036
+  - Lower Price: $0.3491
+  - Grid Number: 12
+  - Grid Spacing: $0.0045
+  - Investment per Grid: $583.33
+  - Price Precision: 5
+  - Quantity Precision: 3
+
+==================================================
+
+Generated at: 2025-01-31 19:06:19

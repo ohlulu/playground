@@ -1,12 +1,12 @@
 #!make
-.DEFAULT_GOAL 	:= push
+.DEFAULT_GOAL 	:= sync
 
-.PHONY: push
-push:
+.PHONY: sync
+sync:
 	@git add .
 	@git commit -m "Syncup"
 	@git push
-	@printf "${GREEN}🚀 Pushed${NC}\n\n"
+	@printf "${GREEN}🚀 sync${NC}\n\n"
 
 
 ### ----------------------- Helper ----------------------- ###
