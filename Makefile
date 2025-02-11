@@ -4,7 +4,7 @@
 .PHONY: sync
 sync:
 	@git add .
-	@git commit -m "Syncup"
+	@git commit -m "Hey Syncup!"
 	@git push
 	@printf "${GREEN}🚀 sync${NC}\n\n"
 
