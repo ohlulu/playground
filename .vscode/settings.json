@@ -1,5 +1,6 @@
 {
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
-    }
+    },
+    "cmake.sourceDirectory": "/Users/ohlulu/Developer/ohlulu/playground/flutter/feed_app/linux"
 }
