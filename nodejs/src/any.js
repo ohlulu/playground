@@ -1,11 +1,27 @@
-import superjson from "superjson";
+// 不推荐
 
-const a = {
-    price: 1265481675487126341237126837354825628735673456788655263462358163546876712,
-};
+class Person {
+    constructor(name) {
+        this.name = name;
+    }
 
-const jj = superjson.serialize(a);
-console.log(jj);
+    person1 = {
+        name: "张三",
+        sayHi: () => {
+            console.log(`Hi, I'm ${this.name}`); // this 指向外部，不是 person
+        },
+    };
 
-const json = JSON.stringify(a);
-console.log(json);
+    // 推荐
+    person2 = {
+        name: "张三",
+        sayHi() {
+            // 简写语法，this 正确指向 person
+            console.log(`Hi, I'm ${this.name}`);
+        },
+    };
+}
+
+const person = new Person("张三");
+person.person1.sayHi();
+person.person2.sayHi();
