@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		50D67FD52DCAF4AD004B78EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50D67FBC2DCAF4AC004B78EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50D67FC32DCAF4AC004B78EC;
+			remoteInfo = "low-level-memory";
+		};
+		50D67FDF2DCAF4AD004B78EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50D67FBC2DCAF4AC004B78EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50D67FC32DCAF4AC004B78EC;
+			remoteInfo = "low-level-memory";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50D67FC42DCAF4AC004B78EC /* low-level-memory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "low-level-memory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D67FD42DCAF4AD004B78EC /* low-level-memoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "low-level-memoryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D67FDE2DCAF4AD004B78EC /* low-level-memoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "low-level-memoryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		50D67FC62DCAF4AC004B78EC /* low-level-memory */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "low-level-memory";
+			sourceTree = "<group>";
+		};
+		50D67FD72DCAF4AD004B78EC /* low-level-memoryTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "low-level-memoryTests";
+			sourceTree = "<group>";
+		};
+		50D67FE12DCAF4AD004B78EC /* low-level-memoryUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "low-level-memoryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50D67FC12DCAF4AC004B78EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D67FD12DCAF4AD004B78EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D67FDB2DCAF4AD004B78EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50D67FBB2DCAF4AB004B78EC = {
+			isa = PBXGroup;
+			children = (
+				50D67FC62DCAF4AC004B78EC /* low-level-memory */,
+				50D67FD72DCAF4AD004B78EC /* low-level-memoryTests */,
+				50D67FE12DCAF4AD004B78EC /* low-level-memoryUITests */,
+				50D67FC52DCAF4AC004B78EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50D67FC52DCAF4AC004B78EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50D67FC42DCAF4AC004B78EC /* low-level-memory.app */,
+				50D67FD42DCAF4AD004B78EC /* low-level-memoryTests.xctest */,
+				50D67FDE2DCAF4AD004B78EC /* low-level-memoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50D67FC32DCAF4AC004B78EC /* low-level-memory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50D67FE82DCAF4AD004B78EC /* Build configuration list for PBXNativeTarget "low-level-memory" */;
+			buildPhases = (
+				50D67FC02DCAF4AC004B78EC /* Sources */,
+				50D67FC12DCAF4AC004B78EC /* Frameworks */,
+				50D67FC22DCAF4AC004B78EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				50D67FC62DCAF4AC004B78EC /* low-level-memory */,
+			);
+			name = "low-level-memory";
+			packageProductDependencies = (
+			);
+			productName = "low-level-memory";
+			productReference = 50D67FC42DCAF4AC004B78EC /* low-level-memory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50D67FD32DCAF4AD004B78EC /* low-level-memoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50D67FEB2DCAF4AD004B78EC /* Build configuration list for PBXNativeTarget "low-level-memoryTests" */;
+			buildPhases = (
+				50D67FD02DCAF4AD004B78EC /* Sources */,
+				50D67FD12DCAF4AD004B78EC /* Frameworks */,
+				50D67FD22DCAF4AD004B78EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50D67FD62DCAF4AD004B78EC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				50D67FD72DCAF4AD004B78EC /* low-level-memoryTests */,
+			);
+			name = "low-level-memoryTests";
+			packageProductDependencies = (
+			);
+			productName = "low-level-memoryTests";
+			productReference = 50D67FD42DCAF4AD004B78EC /* low-level-memoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50D67FDD2DCAF4AD004B78EC /* low-level-memoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50D67FEE2DCAF4AD004B78EC /* Build configuration list for PBXNativeTarget "low-level-memoryUITests" */;
+			buildPhases = (
+				50D67FDA2DCAF4AD004B78EC /* Sources */,
+				50D67FDB2DCAF4AD004B78EC /* Frameworks */,
+				50D67FDC2DCAF4AD004B78EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50D67FE02DCAF4AD004B78EC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				50D67FE12DCAF4AD004B78EC /* low-level-memoryUITests */,
+			);
+			name = "low-level-memoryUITests";
+			packageProductDependencies = (
+			);
+			productName = "low-level-memoryUITests";
+			productReference = 50D67FDE2DCAF4AD004B78EC /* low-level-memoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50D67FBC2DCAF4AC004B78EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					50D67FC32DCAF4AC004B78EC = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					50D67FD32DCAF4AD004B78EC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 50D67FC32DCAF4AC004B78EC;
+					};
+					50D67FDD2DCAF4AD004B78EC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 50D67FC32DCAF4AC004B78EC;
+					};
+				};
+			};
+			buildConfigurationList = 50D67FBF2DCAF4AC004B78EC /* Build configuration list for PBXProject "low-level-memory" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50D67FBB2DCAF4AB004B78EC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 50D67FC52DCAF4AC004B78EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50D67FC32DCAF4AC004B78EC /* low-level-memory */,
+				50D67FD32DCAF4AD004B78EC /* low-level-memoryTests */,
+				50D67FDD2DCAF4AD004B78EC /* low-level-memoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50D67FC22DCAF4AC004B78EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D67FD22DCAF4AD004B78EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D67FDC2DCAF4AD004B78EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50D67FC02DCAF4AC004B78EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D67FD02DCAF4AD004B78EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D67FDA2DCAF4AD004B78EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50D67FD62DCAF4AD004B78EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50D67FC32DCAF4AC004B78EC /* low-level-memory */;
+			targetProxy = 50D67FD52DCAF4AD004B78EC /* PBXContainerItemProxy */;
+		};
+		50D67FE02DCAF4AD004B78EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50D67FC32DCAF4AC004B78EC /* low-level-memory */;
+			targetProxy = 50D67FDF2DCAF4AD004B78EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		50D67FE62DCAF4AD004B78EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50D67FE72DCAF4AD004B78EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50D67FE92DCAF4AD004B78EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"low-level-memory/Preview Content\"";
+				DEVELOPMENT_TEAM = L32T464NSD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ohlulu.low-level-memory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50D67FEA2DCAF4AD004B78EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"low-level-memory/Preview Content\"";
+				DEVELOPMENT_TEAM = L32T464NSD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ohlulu.low-level-memory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50D67FEC2DCAF4AD004B78EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L32T464NSD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ohlulu.low-level-memoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/low-level-memory.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/low-level-memory";
+			};
+			name = Debug;
+		};
+		50D67FED2DCAF4AD004B78EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L32T464NSD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ohlulu.low-level-memoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/low-level-memory.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/low-level-memory";
+			};
+			name = Release;
+		};
+		50D67FEF2DCAF4AD004B78EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L32T464NSD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ohlulu.low-level-memoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "low-level-memory";
+			};
+			name = Debug;
+		};
+		50D67FF02DCAF4AD004B78EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L32T464NSD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ohlulu.low-level-memoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "low-level-memory";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50D67FBF2DCAF4AC004B78EC /* Build configuration list for PBXProject "low-level-memory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D67FE62DCAF4AD004B78EC /* Debug */,
+				50D67FE72DCAF4AD004B78EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50D67FE82DCAF4AD004B78EC /* Build configuration list for PBXNativeTarget "low-level-memory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D67FE92DCAF4AD004B78EC /* Debug */,
+				50D67FEA2DCAF4AD004B78EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50D67FEB2DCAF4AD004B78EC /* Build configuration list for PBXNativeTarget "low-level-memoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D67FEC2DCAF4AD004B78EC /* Debug */,
+				50D67FED2DCAF4AD004B78EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50D67FEE2DCAF4AD004B78EC /* Build configuration list for PBXNativeTarget "low-level-memoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D67FEF2DCAF4AD004B78EC /* Debug */,
+				50D67FF02DCAF4AD004B78EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50D67FBC2DCAF4AC004B78EC /* Project object */;
+}
